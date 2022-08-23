@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "img":"assets/images/01.jpg",
+        "icon":"fal fa-eye-dropper",
+        "title":"Cloud",
+        "shortdesc":"Moderniser, migrer, déployer et opérer des applications dans le cloud"
+    },
+    {
+        "id":2,
+        "img":"assets/images/02.jpg",
+        "icon":"fal fa-gavel",
+        "title":"Conseil",
+        "shortdesc":"Accompagner la conduite du changement pour les projets de transformation numérique"
+    },
+    {
+        "id":3,
+        "img":"assets/images/03.jpg",
+        "icon":"fal fa-map-marked-alt",
+        "title":"Formations",
+        "shortdesc":"Transmettre des connaissances solides sur les technologies Cloud et DevOps"
+    }
+]

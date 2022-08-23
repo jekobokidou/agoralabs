@@ -1,0 +1,37 @@
+<div id="prestations" class="who-we-are-area pt-110 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
+                <div class="section-title">
+                    <span>Qui sommes nous</span>
+                    <h2 class="title">L'expertise au service du numérique</h2>
+                </div> <!-- section title -->
+            </div>
+            <div class="col-lg-6 offset-lg-1 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0s">
+                <div class="section-title">
+                    <p>AgoraLabs est fondé et dirigé par Joseph EKOBO KIDOU, un passionné
+                        de Développement qui a commencé sa carrière comme développeur Java,
+                        il a ainsi pu apporter sa contribution à de nombreux projets d'envergure dans
+                        le secteur des télécommunications, le secteur bancaire, l’énergie, la
+                        logistique et le transport.</p>
+                </div> <!-- section title -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let item of serviceblock | slice:0:3">
+                <div class="what-we-do-item text-center mt-30">
+                    <i [class]="item.icon"></i>
+                    <h5 class="title">{{item.title}}</h5>
+                    <p>{{item.shortdesc | slice:0:75}}</p>
+                    <a routerLink="/conseil"><i class="fal fa-long-arrow-right"></i></a>
+                </div> <!-- what we do item -->
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+    <div class="what-we-are-shape-1">
+        <img src="assets/images/about-shape-01.png" alt="shape">
+    </div>
+    <div class="what-we-are-shape-2">
+        <img src="assets/images/about-shape-02.png" alt="shape">
+    </div>
+</div>

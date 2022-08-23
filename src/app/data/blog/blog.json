@@ -1,0 +1,120 @@
+[
+    {
+        "id": 1,
+        "gridimg": "assets/images/blog-grid-1.jpg",
+        "title": "Plongez dans l'architecture avancé sur AWS",
+        "postdate": "01 Aout 2022",
+        "shortdesc": "Cette formation est un savant mélange d'aspects d'architectures avancés sur AWS(Ex. Architectures Hybrides, Déplacement de gros volume de données, Architecture Multi-régions, ...) et des sessions Labs techniques...",
+        "htmldesc": "<div class='blog-details-bath'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><p class='mt-m2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p> <img src='assets/images/blog-details-thumb.jpg' alt='blog-details'><h4 class='title'>Setting the mood with incense</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati-on ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre-henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p><h4 class='title'>A cleansing hot shower or bath</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati-on ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre-henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p><h4 class='title'>Setting the mood with incense</h4><ul><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li></ul></div><div class='blog-details-quote text-center mt-30 mb-30'><p><span>by</span> Hetmayar</p><h3 class='title'>Viral dreamcatcher keytar typewriter, aesthetic offal umami. Aesthetic polaroid pug pitchfork post-ironic.</h3> <i class='fas fa-quote-left'></i></div><div class='blog-details-confarance'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p><div class='confarance-flex d-flex mt-20 mb-20'><div class='confarance-thumb-1'> <img src='assets/images/confarance.jpg' alt=''></div><div class='confarance-thumb-2'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit .</p></div></div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p></div>",
+        "author": [
+            1
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "views": 232,
+        "reviews": [
+            {
+                "user":[1],
+                "commentdate":"27th Jan 2021",
+                "comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "user":[2],
+                "commentdate":"26th Jan 2021",
+                "comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "user":[3],
+                "commentdate":"25th Jan 2021",
+                "comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
+    },
+
+
+    {
+        "id": 2,
+        "gridimg": "assets/images/blog-grid-2.jpg",
+        "title": "Plongez dans l'architecture avancé sur AWS",
+        "postdate": "01 Aout 2022",
+        "shortdesc": "Cette formation est un savant mélange d'aspects d'architectures avancés sur AWS(Ex. Architectures Hybrides, Déplacement de gros volume de données, Architecture Multi-régions, ...) et des sessions Labs techniques...",
+        "htmldesc": "<div class='blog-details-bath'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><p class='mt-m2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p> <img src='assets/images/blog-details-thumb.jpg' alt='blog-details'><h4 class='title'>Setting the mood with incense</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati-on ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre-henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p><h4 class='title'>A cleansing hot shower or bath</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati-on ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre-henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p><h4 class='title'>Setting the mood with incense</h4><ul><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li></ul></div><div class='blog-details-quote text-center mt-30 mb-30'><p><span>by</span> Hetmayar</p><h3 class='title'>Viral dreamcatcher keytar typewriter, aesthetic offal umami. Aesthetic polaroid pug pitchfork post-ironic.</h3> <i class='fas fa-quote-left'></i></div><div class='blog-details-confarance'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p><div class='confarance-flex d-flex mt-20 mb-20'><div class='confarance-thumb-1'> <img src='assets/images/confarance.jpg' alt=''></div><div class='confarance-thumb-2'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit .</p></div></div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p></div>",
+        "author": [
+            1
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "views": 232,
+        "reviews": [
+            {
+                "user":[1],
+                "commentdate":"27th Jan 2021",
+                "comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "user":[2],
+                "commentdate":"26th Jan 2021",
+                "comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "user":[3],
+                "commentdate":"25th Jan 2021",
+                "comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
+    },
+
+
+    {
+        "id": 3,
+        "gridimg": "assets/images/blog-grid-3.jpg",
+        "title": "Plongez dans l'architecture avancé sur AWS",
+        "postdate": "01 Aout 2022",
+        "shortdesc": "Cette formation est un savant mélange d'aspects d'architectures avancés sur AWS(Ex. Architectures Hybrides, Déplacement de gros volume de données, Architecture Multi-régions, ...) et des sessions Labs techniques...",
+        "htmldesc": "<div class='blog-details-bath'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><p class='mt-m2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p> <img src='assets/images/blog-details-thumb.jpg' alt='blog-details'><h4 class='title'>Setting the mood with incense</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati-on ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre-henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p><h4 class='title'>A cleansing hot shower or bath</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati-on ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre-henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p><h4 class='title'>Setting the mood with incense</h4><ul><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li><li><i class='fal fa-check'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li></ul></div><div class='blog-details-quote text-center mt-30 mb-30'><p><span>by</span> Hetmayar</p><h3 class='title'>Viral dreamcatcher keytar typewriter, aesthetic offal umami. Aesthetic polaroid pug pitchfork post-ironic.</h3> <i class='fas fa-quote-left'></i></div><div class='blog-details-confarance'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p><div class='confarance-flex d-flex mt-20 mb-20'><div class='confarance-thumb-1'> <img src='assets/images/confarance.jpg' alt=''></div><div class='confarance-thumb-2'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit .</p></div></div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p></div>",
+        "author": [
+            1
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "views": 232,
+        "reviews": [
+            {
+                "user":[1],
+                "commentdate":"27th Jan 2021",
+                "comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "user":[2],
+                "commentdate":"26th Jan 2021",
+                "comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "user":[3],
+                "commentdate":"25th Jan 2021",
+                "comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
+    }
+]

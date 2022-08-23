@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "title":"Formation AWS – Cloud Essentials"
+    },
+    {
+        "id":2,
+        "title":"Formation AWS – Ingénierie DEVOPS"
+    },
+    {
+        "id":3,
+        "title":"Formation AWS – Architecture sur AWS"
+    },
+    {
+        "id":4,
+        "title":"Formation DEVOPS – Industrialiser ses builds avec Maven"
+    },
+    {
+        "id":5,
+        "title":"Formation DEVOPS – Docker"
+    }
+]

@@ -16,7 +16,8 @@ phases:
       - ng build --configuration=production
   post_build:
     commands:
-      - echo build process finished, we should uplload to S3 now
+      - echo build process finished, we should uplload to S3 now and invalidate cloudfront cache
       - cd dist/Omnivus
       - ls -la
       - aws s3 sync . s3://www.agoralabs.org --delete
+      - aws cloudfront create-invalidation --distribution-id E1GIT1T3RS7J28 --paths "/*"

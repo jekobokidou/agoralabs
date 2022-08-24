@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'formations', loadChildren: () => import('./components/pages/formations/formations.module').then(m => m.FormationsModule), data: { breadcrumb: 'formations' } },
 
   //Routes tests pour anchor
-
+  
+  { path: 'catalogueformations', redirectTo: '/assets/docs/Agoralabs_Catalogue_De_Formation.pdf' },
   //{ path: 'elearning', loadChildren: () => import('./components/pages/home/introvideo/introvideo.component') },
   /*
   { path: 'prestations', redirectTo: '/#prestations' },

@@ -160,7 +160,7 @@ p {
 .section-title span {
 	color: #0a91ab;
 	font-size: 16px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: 700;
 	padding-bottom: 5px;
 	z-index: 6;
@@ -169,7 +169,7 @@ p {
 .section-title .title {
 	font-size: 70px;
 	font-weight: 700;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	position: relative;
 	z-index: 5;
 	margin-bottom: 33px;

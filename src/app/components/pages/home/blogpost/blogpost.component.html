@@ -20,7 +20,7 @@
                                     <span>Par <span *ngFor="let user of getAuthor(item.author)">{{user.name}}</span>, {{item.postdate}}</span>
                                     <h4 class="title"><a routerLink="#">{{item.title}}</a></h4>
                                     <p>{{item.shortdesc | slice:0:135}}...</p>
-                                    <a class="main-btn" routerLink="#">Lire la suite</a>
+                                    <a class="main-btn" href="{{item.link}}" target="_blank">Lire la suite</a>
                                 </div> <!-- lesast news item -->
                             </div>
                         </div>

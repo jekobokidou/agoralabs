@@ -18,7 +18,8 @@
                             <img src="assets/images/contact-man.jpg" alt="">
                         </div>
                         <div class="contact-form-area">
-                            <form id="contact-form" (submit)="sendEmail($event)">
+
+                            <form id="contact-form" #form="ngForm" name="ctForm">
                                 <div class="input-title">
                                     <h3 class="title">N'hésitez pas à nous contacter</h3>
                                 </div> <!-- input title -->
@@ -26,35 +27,42 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="input-box mt-30">
-                                            <input type="text" placeholder="Votre nom" name="from_name" required>
+                                            <input type="text" placeholder="Votre nom" name="from_name" required ngModel>
                                             <i class="fal fa-user"></i>
                                         </div> <!-- input box -->
+                                        
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="input-box mt-30">
-                                            <input type="email" placeholder="Votre adresse email" name="to_email" required>
+                                            <input type="email" placeholder="Votre adresse email" name="to_email" required ngModel>
                                             <i class="fal fa-envelope-open"></i>
                                         </div> <!-- input box -->
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="input-box mt-30">
-                                            <input type="text" placeholder="Votre numéro de téléphone" name="to_phone" required>
+                                            <input type="text" placeholder="Votre numéro de téléphone" name="to_phone" required ngModel>
                                             <i class="fal fa-phone"></i>
                                         </div> <!-- input box -->
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="input-box mt-30">
-                                            <input type="text" placeholder="Sujet" name="to_subject" required>
+                                            <input type="text" placeholder="Sujet" name="to_subject" required ngModel>
                                             <i class="fal fa-edit"></i>
                                         </div> <!-- input box -->
                                     </div>
                                     
                                     <div class="col-lg-12">
                                         <div class="input-box mt-30">
-                                            <textarea cols="30" rows="10" placeholder="Votre message" name="message_html" required></textarea>
-                                            <i class="fal fa-pencil"></i>
-                                            <div class="g-recaptcha" data-sitekey="6Lfhq7QhAAAAAKzcxJhz11b1Ovalbcz90CNGRn_o"></div>
-                                            <button class="main-btn" type="submit">Envoyez <i class="fal fa-long-arrow-right"></i></button>
+                                            <textarea cols="30" rows="10" placeholder="Votre message" name="message_html" required ngModel></textarea>
+
+                                            <div class="col-sm-12 mb-2">
+                                                <re-captcha language="fr" id="recaptcha" name="recaptcha" #recaptcha="ngModel" [(ngModel)]="recaptchatoken" required [class.is-invalid]="recaptcha.invalid && (recaptcha.dirty || recaptcha.touched)"></re-captcha>
+                                                <div *ngIf="recaptcha.invalid && (recaptcha.dirty || recaptcha.touched)" class="invalid-feedback">
+                                                  <div *ngIf="recaptcha.errors?.['required']">Ce champ est obligatoire.</div>
+                                                </div>
+                                              </div>
+
+                                            <button class="main-btn" type="button" (click)="send(form);">Envoyez <i class="fal fa-long-arrow-right"></i></button>
                                         </div> <!-- input box -->
                                     </div>
                                 </div>
@@ -64,5 +72,8 @@
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
+ 
+     
+
     </div>
 </div>

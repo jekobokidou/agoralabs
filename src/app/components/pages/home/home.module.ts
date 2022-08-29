@@ -19,6 +19,10 @@ import { BlogpostComponent } from './blogpost/blogpost.component';
 import { BrandsComponent } from './brands/brands.component';
 import { IntrovideoComponent } from './introvideo/introvideo.component';
 
+import { RECAPTCHA_SETTINGS, RECAPTCHA_LANGUAGE, RecaptchaFormsModule, RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
+import { environment } from '../../../../environments/environment';
+import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [HomeComponent, BannerComponent, IntrovideoComponent ,ServiceComponent, VideoComponent, LatestserviceComponent, WhyusComponent, CasesComponent, TeamComponent, ContactComponent, FactsComponent, BlogpostComponent, BrandsComponent],
@@ -27,7 +31,24 @@ import { IntrovideoComponent } from './introvideo/introvideo.component';
     HomeRoutingModule,
     SharedModule,
     NgbModule,
-    SlickCarouselModule
+    SlickCarouselModule,    
+    RecaptchaModule,
+    RecaptchaFormsModule,
+    FormsModule,
+    HttpClientModule
+  ],
+  providers: [
+    {
+      provide: RECAPTCHA_SETTINGS,
+      useValue: {
+        siteKey: environment.recaptcha.siteKey,
+      } as RecaptchaSettings,
+    },
+    {
+      provide: RECAPTCHA_LANGUAGE,
+      useValue: "fr", // use French language
+    },
   ]
+
 })
 export class HomeModule { }

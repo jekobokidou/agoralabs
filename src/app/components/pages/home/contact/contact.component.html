@@ -60,10 +60,27 @@
                                                 <div *ngIf="recaptcha.invalid && (recaptcha.dirty || recaptcha.touched)" class="invalid-feedback">
                                                   <div *ngIf="recaptcha.errors?.['required']">Ce champ est obligatoire.</div>
                                                 </div>
-                                              </div>
+                                            </div>
 
-                                            <button class="main-btn" type="button" (click)="send(form);">Envoyez <i class="fal fa-long-arrow-right"></i></button>
-                                        </div> <!-- input box -->
+                                            <div class="col-sm-12 mb-2">
+                                                <div [hidden]="editmode">
+                                                    <div class="main-btn loading">
+                                                        <div class="line"></div>
+                                                        <div class="line"></div>
+                                                        <div class="line"></div>
+                                                        <div class="line"></div>
+                                                        <div class="line"></div>
+                                                        <div class="line"></div>
+                                                        <div class="line"></div>
+                                                        <div class="line"></div>
+                                                    </div>                                               
+                                                  </div>
+                                            </div>
+                                            <div class="col-sm-12 mb-2">
+                                                <button class="main-btn" type="button" (click)="send(form);" [disabled]="!editmode ? 'disabled': null" >Envoyez <i class="fal fa-long-arrow-right"></i></button> 
+                                            </div> 
+                                                                                      
+                                        </div><!-- input box -->
                                     </div>
                                 </div>
                             </form>

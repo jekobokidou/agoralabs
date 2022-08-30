@@ -14,6 +14,7 @@ export class ContactComponent implements OnInit {
   apiSendMailUrl: string = environment.apiSendMailUrl;
   access_token: string = environment.access_token;//api gateway access token
   recaptchatoken: string|undefined;//recaptcha token
+  editmode: boolean = true;
 
   constructor(private http: HttpClient) { 
     this.recaptchatoken = undefined;
@@ -40,6 +41,8 @@ export class ContactComponent implements OnInit {
   }
 
   public send(form: NgForm): void {
+
+    this.editmode = false;
 
     this.validateContactForm(form);
 
@@ -104,6 +107,7 @@ export class ContactComponent implements OnInit {
         .subscribe(
             (val) => {
               this.setSuccess();
+              this.editmode = true;
                 console.log("POST call successful value returned in body", 
                             val);
             },

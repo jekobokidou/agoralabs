@@ -105,7 +105,7 @@ export class DownloadComponent implements OnInit {
 
     download(){
       var downloadLinkElement = document.getElementById('download-link');
-      console.log(downloadLinkElement);
+      //console.log(downloadLinkElement);
       downloadLinkElement.click();
     }
 

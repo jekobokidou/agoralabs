@@ -55,12 +55,13 @@ export class ContactComponent implements OnInit {
       for (const control of Object.keys(form.controls)) {
         form.controls[control].markAsTouched();
       }
+      this.setDanger();
       return;
     }
 
     this.httpPostContact(form);
 
-    console.debug(`Token [${this.recaptchatoken}] generated`);
+    //console.debug(`Token [${this.recaptchatoken}] generated`);
   }
 
   isEmptyString(str) {
@@ -83,11 +84,13 @@ export class ContactComponent implements OnInit {
   setSuccess() {
     this.formStatus = 'success';
     this.formResponse = 'Votre message a été envoyé avec succès, nous vous répondrons sous peu.';
+    this.editmode = true;
   }
 
   setDanger() {
     this.formStatus = 'danger';
     this.formResponse = 'Une erreur a été détectée, assurez-vous de remplir tous les champs.';
+    this.editmode = true;
   }
 
   httpPostContact(form: NgForm) {
@@ -107,7 +110,7 @@ export class ContactComponent implements OnInit {
         .subscribe(
             (val) => {
               this.setSuccess();
-              this.editmode = true;
+              
                 console.log("POST call successful value returned in body", 
                             val);
             },

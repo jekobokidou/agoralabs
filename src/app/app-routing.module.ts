@@ -14,10 +14,12 @@ const routes: Routes = [
   { path: 'services', loadChildren: () => import('./components/pages/services/services.module').then(m => m.ServicesModule), data: { breadcrumb: 'Services' } },
   { path: 'service-details', loadChildren: () => import('./components/pages/service-details/service-details.module').then(m => m.ServiceDetailsModule), data: { breadcrumb: 'Service Details' } },
   */
-  // New Sercices
+  // New Services
   { path: 'cloud', loadChildren: () => import('./components/pages/cloud/cloud.module').then(m => m.CloudModule), data: { breadcrumb: 'Cloud' } },
   { path: 'conseil', loadChildren: () => import('./components/pages/conseil/conseil.module').then(m => m.ConseilModule), data: { breadcrumb: 'Conseil' } },
-  { path: 'formations', loadChildren: () => import('./components/pages/formations/formations.module').then(m => m.FormationsModule), data: { breadcrumb: 'formations' } },
+  { path: 'formations', loadChildren: () => import('./components/pages/formations/formations.module').then(m => m.FormationsModule), data: { breadcrumb: 'Formations' } },
+
+  { path: 'download-catalog', loadChildren: () => import('./components/pages/download/download.module').then(m => m.DownloadModule), data: { breadcrumb: 'Téléchargements' } },
 
   //Routes tests pour anchor
   

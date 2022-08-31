@@ -110,7 +110,7 @@ export class ContactComponent implements OnInit {
         .subscribe(
             (val) => {
               this.setSuccess();
-              
+              form.reset();
                 console.log("POST call successful value returned in body", 
                             val);
             },
